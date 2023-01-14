@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A9622B72972D84100123193 /* GabaoMetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9622B62972D84100123193 /* GabaoMetApp.swift */; };
+		0A9622B92972D84100123193 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9622B82972D84100123193 /* ContentView.swift */; };
+		0A9622BB2972D84300123193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9622BA2972D84300123193 /* Assets.xcassets */; };
+		0A9622BE2972D84300123193 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9622BD2972D84300123193 /* Preview Assets.xcassets */; };
+		0A9622C82972D84300123193 /* GabaoMetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9622C72972D84300123193 /* GabaoMetTests.swift */; };
+		0A9622D22972D84300123193 /* GabaoMetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9622D12972D84300123193 /* GabaoMetUITests.swift */; };
+		0A9622D42972D84300123193 /* GabaoMetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9622D32972D84300123193 /* GabaoMetUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A9622C42972D84300123193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9622AB2972D84100123193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9622B22972D84100123193;
+			remoteInfo = GabaoMet;
+		};
+		0A9622CE2972D84300123193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9622AB2972D84100123193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9622B22972D84100123193;
+			remoteInfo = GabaoMet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A9622B32972D84100123193 /* GabaoMet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GabaoMet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9622B62972D84100123193 /* GabaoMetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GabaoMetApp.swift; sourceTree = "<group>"; };
+		0A9622B82972D84100123193 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A9622BA2972D84300123193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A9622BD2972D84300123193 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A9622C32972D84300123193 /* GabaoMetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GabaoMetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9622C72972D84300123193 /* GabaoMetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GabaoMetTests.swift; sourceTree = "<group>"; };
+		0A9622CD2972D84300123193 /* GabaoMetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GabaoMetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9622D12972D84300123193 /* GabaoMetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GabaoMetUITests.swift; sourceTree = "<group>"; };
+		0A9622D32972D84300123193 /* GabaoMetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GabaoMetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A9622B02972D84100123193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9622C02972D84300123193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9622CA2972D84300123193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A9622AA2972D84100123193 = {
+			isa = PBXGroup;
+			children = (
+				0A9622B52972D84100123193 /* GabaoMet */,
+				0A9622C62972D84300123193 /* GabaoMetTests */,
+				0A9622D02972D84300123193 /* GabaoMetUITests */,
+				0A9622B42972D84100123193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A9622B42972D84100123193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A9622B32972D84100123193 /* GabaoMet.app */,
+				0A9622C32972D84300123193 /* GabaoMetTests.xctest */,
+				0A9622CD2972D84300123193 /* GabaoMetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A9622B52972D84100123193 /* GabaoMet */ = {
+			isa = PBXGroup;
+			children = (
+				0A9622B62972D84100123193 /* GabaoMetApp.swift */,
+				0A9622B82972D84100123193 /* ContentView.swift */,
+				0A9622BA2972D84300123193 /* Assets.xcassets */,
+				0A9622BC2972D84300123193 /* Preview Content */,
+			);
+			path = GabaoMet;
+			sourceTree = "<group>";
+		};
+		0A9622BC2972D84300123193 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0A9622BD2972D84300123193 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A9622C62972D84300123193 /* GabaoMetTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A9622C72972D84300123193 /* GabaoMetTests.swift */,
+			);
+			path = GabaoMetTests;
+			sourceTree = "<group>";
+		};
+		0A9622D02972D84300123193 /* GabaoMetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A9622D12972D84300123193 /* GabaoMetUITests.swift */,
+				0A9622D32972D84300123193 /* GabaoMetUITestsLaunchTests.swift */,
+			);
+			path = GabaoMetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A9622B22972D84100123193 /* GabaoMet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9622D72972D84300123193 /* Build configuration list for PBXNativeTarget "GabaoMet" */;
+			buildPhases = (
+				0A9622AF2972D84100123193 /* Sources */,
+				0A9622B02972D84100123193 /* Frameworks */,
+				0A9622B12972D84100123193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GabaoMet;
+			productName = GabaoMet;
+			productReference = 0A9622B32972D84100123193 /* GabaoMet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A9622C22972D84300123193 /* GabaoMetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9622DA2972D84300123193 /* Build configuration list for PBXNativeTarget "GabaoMetTests" */;
+			buildPhases = (
+				0A9622BF2972D84300123193 /* Sources */,
+				0A9622C02972D84300123193 /* Frameworks */,
+				0A9622C12972D84300123193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9622C52972D84300123193 /* PBXTargetDependency */,
+			);
+			name = GabaoMetTests;
+			productName = GabaoMetTests;
+			productReference = 0A9622C32972D84300123193 /* GabaoMetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A9622CC2972D84300123193 /* GabaoMetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9622DD2972D84300123193 /* Build configuration list for PBXNativeTarget "GabaoMetUITests" */;
+			buildPhases = (
+				0A9622C92972D84300123193 /* Sources */,
+				0A9622CA2972D84300123193 /* Frameworks */,
+				0A9622CB2972D84300123193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9622CF2972D84300123193 /* PBXTargetDependency */,
+			);
+			name = GabaoMetUITests;
+			productName = GabaoMetUITests;
+			productReference = 0A9622CD2972D84300123193 /* GabaoMetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A9622AB2972D84100123193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					0A9622B22972D84100123193 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					0A9622C22972D84300123193 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 0A9622B22972D84100123193;
+					};
+					0A9622CC2972D84300123193 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 0A9622B22972D84100123193;
+					};
+				};
+			};
+			buildConfigurationList = 0A9622AE2972D84100123193 /* Build configuration list for PBXProject "GabaoMet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A9622AA2972D84100123193;
+			productRefGroup = 0A9622B42972D84100123193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A9622B22972D84100123193 /* GabaoMet */,
+				0A9622C22972D84300123193 /* GabaoMetTests */,
+				0A9622CC2972D84300123193 /* GabaoMetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A9622B12972D84100123193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9622BE2972D84300123193 /* Preview Assets.xcassets in Resources */,
+				0A9622BB2972D84300123193 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9622C12972D84300123193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9622CB2972D84300123193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A9622AF2972D84100123193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9622B92972D84100123193 /* ContentView.swift in Sources */,
+				0A9622B72972D84100123193 /* GabaoMetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9622BF2972D84300123193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9622C82972D84300123193 /* GabaoMetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9622C92972D84300123193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9622D42972D84300123193 /* GabaoMetUITestsLaunchTests.swift in Sources */,
+				0A9622D22972D84300123193 /* GabaoMetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A9622C52972D84300123193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9622B22972D84100123193 /* GabaoMet */;
+			targetProxy = 0A9622C42972D84300123193 /* PBXContainerItemProxy */;
+		};
+		0A9622CF2972D84300123193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9622B22972D84100123193 /* GabaoMet */;
+			targetProxy = 0A9622CE2972D84300123193 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A9622D52972D84300123193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A9622D62972D84300123193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A9622D82972D84300123193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GabaoMet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gavinaperano.GabaoMet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A9622D92972D84300123193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GabaoMet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gavinaperano.GabaoMet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A9622DB2972D84300123193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gavinaperano.GabaoMetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GabaoMet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GabaoMet";
+			};
+			name = Debug;
+		};
+		0A9622DC2972D84300123193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gavinaperano.GabaoMetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GabaoMet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GabaoMet";
+			};
+			name = Release;
+		};
+		0A9622DE2972D84300123193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gavinaperano.GabaoMetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GabaoMet;
+			};
+			name = Debug;
+		};
+		0A9622DF2972D84300123193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gavinaperano.GabaoMetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GabaoMet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A9622AE2972D84100123193 /* Build configuration list for PBXProject "GabaoMet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9622D52972D84300123193 /* Debug */,
+				0A9622D62972D84300123193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9622D72972D84300123193 /* Build configuration list for PBXNativeTarget "GabaoMet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9622D82972D84300123193 /* Debug */,
+				0A9622D92972D84300123193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9622DA2972D84300123193 /* Build configuration list for PBXNativeTarget "GabaoMetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9622DB2972D84300123193 /* Debug */,
+				0A9622DC2972D84300123193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9622DD2972D84300123193 /* Build configuration list for PBXNativeTarget "GabaoMetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9622DE2972D84300123193 /* Debug */,
+				0A9622DF2972D84300123193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A9622AB2972D84100123193 /* Project object */;
+}
